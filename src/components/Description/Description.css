@@ -1,0 +1,155 @@
+.DescriptionBox{
+    margin: 30px 170px;
+}
+
+.DescriptionBox-navigator{
+    display: flex;
+    cursor: pointer;
+}
+
+.DescriptionBox-nav-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    width: 171px;
+    height: 70px;
+    border: 1px solid #d0d0d0;
+}
+
+.DescriptionBox-nav-box.fade{
+    background: #fbfbfb;
+    color: #555;
+}
+
+.DescriptionBox-description{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border: 1px solid #d0d0d0;
+    padding: 48px;
+    padding-bottom: 70px;
+}
+
+.Harshalbh2 div{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 5px #bab9b9;
+    height: 200px;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.Harshalbh2 p{
+    margin: 10px 20px;
+    line-height: 20px;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.DescriptionBox-reviews1{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #d0d0d0;
+
+
+}
+
+.hrs34 p{
+    font-size: 20px;
+    margin-left: -50px;
+}
+.harshaltakeinput {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+
+  
+  .review-inputs input[type="text"],
+  .review-inputs input[type="email"],
+  .review-inputs textarea {
+    width: 50%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .review-form button {
+    padding: 10px 20px;
+    margin: 30px 50px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .review-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  span {
+    margin-right: 5px;
+  }
+  
+
+
+  .DescriptionBox-reviews1 hr {
+       height: 4px;
+       border-radius: 5px;
+       background-color: #555;
+  }
+  
+
+  .harshking p{
+font-size: 20px;
+  }
+  .harshking span{
+    font-size: 30px;
+  }
+@media(max-width:1280px){
+    .DescriptionBox{
+        margin: 60px;
+    }
+}
+
+@media(max-width:800px){
+    .DescriptionBox{
+        margin: 60px 20px;
+    }
+    .DescriptionBox-description{
+        font-size: 14px;
+    }
+}
+
+@media(max-width:500px){
+    .DescriptionBox{
+        margin: 30px 10px;
+    }
+    .DescriptionBox-description{
+        font-size: 14px;
+    }
+    .hrs34 p{
+        margin-left: 30px;
+        font-size: 15px;
+    }
+    .Harshalbh2{
+        font-size: 10px;
+        width: 280px;
+    }
+    .Harshalbh2 p{
+        font-size: 15px;
+        margin: auto auto;
+    }
+}
